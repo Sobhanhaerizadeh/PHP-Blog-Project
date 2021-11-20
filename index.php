@@ -1,4 +1,7 @@
 <?php
+// Sobhan Haerizadeh
+// Www.SobiDev.ir
+
 session_start();
 require_once("functions/pdo_connection.php");
 require_once("functions/helpers.php");

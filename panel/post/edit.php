@@ -103,9 +103,7 @@ if (!isset($_REQUEST['post_id']) || $_REQUEST['post_id'] === ""){
                         <section class="form-group">
                             <button type="submit" class="btn btn-primary" name="submit">Update</button>
                         </section>
-                    </form>
-
-                    <?php
+                        <?php
 
 if (
     isset($_POST['submit']) && isset($_POST['title']) &&
@@ -181,6 +179,7 @@ if (
     }
 }
 ?>
+                    </form>
                 </section>
             </section>
         </section>
